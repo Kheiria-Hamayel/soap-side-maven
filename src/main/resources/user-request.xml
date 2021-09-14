@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://soap-side.com">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getUserRequest>
+            <us:name>sam</us:name>
+        </us:getUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
